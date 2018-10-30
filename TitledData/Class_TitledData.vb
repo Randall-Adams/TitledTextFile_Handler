@@ -29,7 +29,7 @@
             If vlinesoftext.Contains(value) Then Exit Property 'prevents double data
             'if setting a line number that exists in the file already...
             If _lineNumber < vlinesoftext.Count Then
-                    vlinesoftext.Item(_lineNumber) = value
+                vlinesoftext.Item(_lineNumber) = value
                 Exit Property
             End If
             'if setting a new line number in the file...

@@ -10,7 +10,7 @@
     End Property
     Private vTaggedData As List(Of Class_TitledData)
     Private vfileContents_raw As New List(Of String)
-    Sub New(ByVal _folderLocation As String, ByVal _fileName As String, Optional ByVal AutoReadFile As Boolean = False) 'autoread is true in kairen4..
+    Sub New(ByVal _folderLocation As String, ByVal _fileName As String, Optional ByVal AutoReadFile As Boolean = False)
         vFolderLocation = _folderLocation
         vFileName = _fileName
         If AutoReadFile Then ReadFile()
